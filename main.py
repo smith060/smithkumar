@@ -17,7 +17,7 @@ app.secret_key = 'super-secret-key'
 app.config['UPLOAD_FOLDER'] = params['upload_location']
 app.config.update(
     MAIL_SERVER = 'smtp.gmail.com',
-    MAIL_PORT = '465',
+    MAIL_PORT = '461',
     MAIL_USE_SSL = True,
     MAIL_USERNAME = params['gmail-user'],
     MAIL_PASSWORD=  params['gmail-password']
